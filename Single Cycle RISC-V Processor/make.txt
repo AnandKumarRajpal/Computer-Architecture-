@@ -1,0 +1,3 @@
+vlog tb.v RISC_V_Processor.v registerfile.v Program_Counter.v mux.v Instruction_Memory.v instruction.v imm_gen.v Data_Memory.v Control_Unit.v ALU_Control.v ALU_64_bit.v Adder.v 
+vsim -novopt work.tb
+view wave
